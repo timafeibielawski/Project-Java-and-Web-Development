@@ -39,23 +39,48 @@ Before starting, ensure the following programs are installed on your system:
 
 Follow these steps to set up and run the project locally:
 
-### Project Setup in a Single Terminal
+### Backend Setup
 
 1. Open the `react-sneakers-backend` folder in your terminal.
-2. Execute the following commands in sequence to set up both the backend and frontend:
+2. Execute the following commands in sequence:
 
 ```bash
-# Backend Setup
 npm install
 npx prisma migrate dev --name init
 npx prisma db push
 yarn start
+```
 
-# Frontend Setup
-cd ../react-sneakers
+### Frontend Setup
+
+1. Open the `react-sneakers` folder in your terminal.
+2. Execute the following commands in sequence:
+
+```bash
 npm install
 yarn
 yarn remove node-sass
 yarn add sass
 yarn start
+```
+
+---
+
+## Database Configuration
+
+To initialize the demo sneakers database:
+
+1. Open `TablePlus` and navigate to the `products` tab.
+2. Import `product.csv` to populate the demo data.
+3. View all records stored in the `users` tab for user data.
+
+---
+
+## Notes
+
+- Ensure PostgreSQL is running before starting the backend.
+- Use the same database credentials (e.g., password: `1111`) throughout the setup.
+- If you encounter issues, double-check the configurations and follow the installation steps carefully.
+
+---
 
