@@ -1,5 +1,5 @@
 # Project-Java-and-Web-Development
-Project Java and Web Development
+Made by Timafei Bielawski 102203482 for the course DLBCSPJWD01 of Internationale Hochschule Bad Honnef 
 
 # React Sneakers Project
 
