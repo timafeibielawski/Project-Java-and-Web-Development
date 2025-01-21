@@ -3,6 +3,8 @@ Made by Timafei Bielawski 102203482 for the course DLBCSPJWD01 of Internationale
 
 # React Sneakers Project
 
+# ATTETION!!!!! AS FOR 01.2025 REACT GIVES 401 ERROR AFTER FIRST START!!! JUST REFRESH THE PAGE!!!
+
 ## Overview
 React Sneakers is a project designed with a modern React frontend and a robust backend powered by Node.js, Prisma, and PostgreSQL. This README provides guidance on setting up the project and running it locally.
 
