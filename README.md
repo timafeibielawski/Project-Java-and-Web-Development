@@ -39,13 +39,23 @@ Before starting, ensure the following programs are installed on your system:
 
 Follow these steps to set up and run the project locally:
 
-### Backend Setup
+### Project Setup in a Single Terminal
 
 1. Open the `react-sneakers-backend` folder in your terminal.
-2. Execute the following commands in sequence:
+2. Execute the following commands in sequence to set up both the backend and frontend:
 
 ```bash
+# Backend Setup
 npm install
 npx prisma migrate dev --name init
 npx prisma db push
 yarn start
+
+# Frontend Setup
+cd ../react-sneakers
+npm install
+yarn
+yarn remove node-sass
+yarn add sass
+yarn start
+
