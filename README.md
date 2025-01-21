@@ -44,6 +44,7 @@ Follow these steps to set up and run the project locally:
 1. Open the `react-sneakers-backend` folder in your terminal.
 2. Execute the following commands in sequence:
 
+```bash
 npm install
 npx prisma migrate dev --name init
 npx prisma db push
