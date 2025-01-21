@@ -57,7 +57,6 @@ yarn start
 2. Execute the following commands in sequence:
 
 ```bash
-npm install
 yarn
 yarn remove node-sass
 yarn add sass
